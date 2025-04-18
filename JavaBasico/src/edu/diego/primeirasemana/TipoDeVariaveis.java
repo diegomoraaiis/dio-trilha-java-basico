@@ -1,4 +1,5 @@
-public class TipoDeVatiaveis{
+package edu.diego.primeirasemana;
+public class TipoDeVariaveis{
    
     public static void main(String[] args){
        //tipos primitivos  
@@ -13,5 +14,11 @@ public class TipoDeVatiaveis{
        int numero = 5;
        numero =10;
        System.out.print("Numero..:"+numero);
+
+       // constantes
+       final double valor_De_pi = 3.14;
+      // valor_De_pi = 10; 
+      // o valor acima foi comentado pois não pode mudar valor de constante.
+
     }
 }

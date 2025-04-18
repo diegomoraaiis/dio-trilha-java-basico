@@ -13,29 +13,27 @@ public class Operadores {
          int multiplicacao = numero1 * numero2;
          int divisao = numero1 / numero2;
 
-        Imprimindo os resultados
+        //Imprimindo os resultados
          System.out.println("Soma: " + soma);
          System.out.println("Subtração: " + subtracao);
          System.out.println("Multiplicação: " + multiplicacao);
          System.out.println("Divisão: " + divisao);
 
-         System.out.println("numero -- "+(numero1--));  continua o mesmo numero
-         depois decrementa (20)
-         System.out.println("numero -- "+(numero1));  decrementou: 19
-         System.out.println("numero +: "+ (numero1++));  continua o mesmo numero
-         depois incrementa (19)
-         System.out.println("numero -- "+(numero1));  incrementou: 20
-         System.out.println("numero -- "+(--numero1)); decrementa direto
-         System.out.println("numero ++ "+(++numero1)); incrementa direto
+         System.out.println("numero -- "+(numero1--));  //continua o mesmo numero depois decrementa (20)
+         System.out.println("numero -- "+(numero1));  //decrementou: 19
+         System.out.println("numero +: "+ (numero1++));  //continua o mesmo numero depois incrementa (19)
+         System.out.println("numero -- "+(numero1));  //incrementou: 20
+         System.out.println("numero -- "+(--numero1)); //decrementa direto
+         System.out.println("numero ++ "+(++numero1)); //incrementa direto
 
-         operadores lógicos
+         //operadores lógicos
 
          boolean booleano = true;
          System.out.println(booleano);
          System.out.println(!booleano);
 
-         Operadores ternários (: ?)
-         exemplo
+         //Operadores ternários (: ?)
+         //exemplo
 
          if (numero1 == numero2) {
          System.out.println("veradeiro");
@@ -45,8 +43,8 @@ public class Operadores {
 
         // usando operadores ternários para o mesmo processo
         // numero1 =10;  mudando valor para mudar resultado
-         String resultado;
-         System.out.println(resultado = numero1 == numero2 ? "verdadeiro" : "falso");
+         String resultado = numero1 == numero2 ? "verdadeiro" : "falso";
+         System.out.println(resultado);
          
 
          //operadores relacionais

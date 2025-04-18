@@ -1,18 +1,27 @@
-## Getting Started
+## Curso básico de java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### Introdução
+- Foi realizado toda uma introdução sobre o histórico da linguagem e sua utilização no dia a dia.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Anatomia das classes 
+- Explicado como funciona a anatomia das classes e;
+- Organização dos pacotes e códigos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Tipos de variáveis
+- Variáveis e os tipos primitivos;
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Operadores
+- Operadores lógicos, ternários e relacionais;
 
-## Dependency Management
+### Métodos
+- Explicado sobre métodos sem retorno, com retorno além de outras formas de contruções.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Escopo
+- Repassado todo escopo de uma implementação na linguagem java
+
+
+###### Além de explicar os tópicos acima, foi passado também sobre as palavras reservadas, Documento java, debug e terminal e argumentos.
+
+

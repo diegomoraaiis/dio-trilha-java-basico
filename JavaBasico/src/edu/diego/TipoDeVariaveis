@@ -1,0 +1,17 @@
+public class TipoDeVatiaveis{
+   
+    public static void main(String[] args){
+       //tipos primitivos  
+       byte idade = 123;
+       short ano = 2021;
+       int cep =21070333;
+       long cpf = 11154487596L;
+       float pi = 3.14F;
+       double salario = 1923.00;
+
+       // variaveis
+       int numero = 5;
+       numero =10;
+       System.out.print("Numero..:"+numero);
+    }
+}
